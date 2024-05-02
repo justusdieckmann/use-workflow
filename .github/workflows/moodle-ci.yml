@@ -1,0 +1,6 @@
+name: Moodle Plugin CI
+on: [ push, pull_request ]
+
+jobs:
+  call:
+    uses: justusdieckmann/be-workflow/.github/workflows/moodle-ci.yml@main
