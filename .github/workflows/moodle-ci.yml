@@ -3,4 +3,5 @@ on: [ push, pull_request ]
 
 jobs:
   call:
+    name: ""
     uses: justusdieckmann/be-workflow/.github/workflows/moodle-ci.yml@main
